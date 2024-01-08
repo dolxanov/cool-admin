@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* .col-2{
+    
+} */
+.layout{
+    color: #98a7b9;
+}
+.lay{
+    letter-spacing: 3px;
+    color: #3c4753;
+}
+.fa-chevron-down{
+    font-size: 12px;
+}
+.pages:hover i {
+    color: white;
+    transition: 0.8s;
+}
+.pages:hover span {
+    color: white;
+    transition: 0.8s;
+}
+.search{
+    width: 80% !important;
+   
+}
+.fa-bell{
+    color: gray;
+}
+.circle{
+    width: 50px; 
+    height: 50px;
+    border-radius: 100%;
+    background-color: #e2e7ec;
+}
+.circle:hover {
+    background-color: gainsboro;
+}
+
+.circle-photo{
+    position: relative;
+    background-image: url(./img/c8e2adcafb8cc7476ed4e80f2130f7ec.png);
+    background-position: center;
+    background-size: cover;
+}
+.online{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+    top: 40px;
+    left: 34px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+
+.project{
+    height: 275px;
+    background-color:#624BFF;
+}
+.create{
+    border-radius: 5px;
+}
+.card{
+    width: 300px;
+    
+}
+.suit{
+    width: 50px;
+    height: 40px;
+    background-color: #E0DCFE;
+    border-radius: 5px;
+}
+
+.icon-color{
+    color: #624BFF; 
+}
+.num{
+    font-size: 3rem;
+}
+.comple{
+    color: #637391;
+}
+.table{
+    border-radius: 12px;
+}
+
+.logo-box{
+    
+    border: 1px solid rgb(196, 190, 190);
+}
+
+.medium-box{
+    width: 60%;
+    background-color: #F59E0B;
+    border-radius: 8px;
+}
+.folder-box{
+    position: relative;
+}
+
+.folder1{
+    background-color:#624BFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: -44px;
+    left: 60px;
+    z-index: 5;
+    border: 1px solid white;
+    
+}
+.folder2{
+    background-color: #DDAFF3;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: -44px; 
+    left: 45px;
+    z-index: 4; 
+    border: 1px solid white; 
+}
+.folder3{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: -44px; 
+    left: 30px;
+    z-index: 3;  
+    border: 1px solid white;
+    background-color: #aeeb3d;
+}
+.folder4{
+    background-color: #c72187;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: -44px; 
+    left: 15px;
+    z-index: 2;  
+    border: 1px solid white;
+}
+.folder4:hover{
+    z-index: 6;
+}
+.folder3:hover{
+    z-index: 6;
+}
+.folder2:hover{
+    z-index: 6;
+}
+.folder1:hover{
+    z-index: 6;
+}
+
+.progress{
+    height: 7px !important;
+}
+.progress-bar{
+    width: 15% !important;
+}
+.slack:hover{
+    color: #4a2eff;
+    cursor: pointer;
+}
+.high-box{
+    background-color: #DC3545;
+    border-radius: 8px;
+    width: 40%;
+}
+/* .progress-bar2{
+    width: 35% !important;
+    background-color: #0D6EFD;
+} */
+.bar2{
+    width: 35% !important;
+}
+.bar3{
+    width: 75% !important;
+}
+.bar4{
+    width: 63% !important;
+}
+.track-box{
+    border-radius: 8px;
+}
+.bar5{
+    width: 100% !important;
+}
+.percend{
+    font-size: 3rem;
+}
+.fixx{
+    width: 17%;
+    background-color: #212B36 !important;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.avatar{
+    
+    position: relative;
+    background-image:url(./img/online1.png);
+    background-position: center;
+    background-size: cover;
+}
+.avatar1{
+    
+    position: relative;
+    background-image:url(./img/av1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.avatar2{
+    
+    position: relative;
+    background-image:url(./img/avatar2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.avatar3{
+    
+    position: relative;
+    background-image:url(./img/avatar3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.avatar4{
+    
+    position: relative;
+    background-image:url(./img/avatar4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.avatar5{
+    
+    position: relative;
+    background-image:url(./img/avatar5.jpg);
+    background-position: center;
+    background-size: cover;
+}
